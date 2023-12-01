@@ -2,7 +2,9 @@
 
 
 ## Roadmap
-[ x ] - Suffer
+- [x] Suffer
+- [x] add terrible commit messages
+- [ ] smoke an apple
 
 ## Getting Started
 
