@@ -1,7 +1,6 @@
-# scoutingapp
+# Team 3245 Scouting Application
 
-A new Flutter project.
-
+g-guh
 ## Getting Started
 
 This project is a starting point for a Flutter application.
