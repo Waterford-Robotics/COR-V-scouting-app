@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "491982534039",
+    "project_id": "scoutingapp-backend",
+    "storage_bucket": "scoutingapp-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491982534039:android:06fee94a7b846e4b5b00d2",
+        "android_client_info": {
+          "package_name": "com.example.scoutingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGrMN5J-rj2HU5AnwCUfNBFrBqZBqELlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
