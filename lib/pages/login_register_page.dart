@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Widget _title() {
-    return const Text('Corvoid a1');
+    return const Text('COR-V A.0.1');
   }
 
   Widget _entryField(

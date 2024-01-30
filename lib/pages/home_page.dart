@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   }
 
   Widget _title() {
-    return const Text('Corvoid a1.1.1');
+    return const Text('COR-V A.0.1');
   }
 
   Widget _userUid() {
