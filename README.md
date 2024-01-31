@@ -1,10 +1,7 @@
-# Team 3245 Scouting Application
+# COR-V Indev
 
-
-## Roadmap
-- [x] Suffer
-- [x] add terrible commit messages
-- [ ] smoke an apple
+## Important Note
+COR-V is currently an in-development project. This app currently does not work and it is not recommended to install either the executable or .apk until a stable version is avaliable. Version B.0.1 is expected to release around Week 1
 
 ## Getting Started
 
