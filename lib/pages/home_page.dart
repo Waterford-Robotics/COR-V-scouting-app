@@ -23,6 +23,14 @@ class HomePage extends StatelessWidget {
     return ElevatedButton(onPressed: signOut, child: const Text('Log Out'));
   }
 
+  Widget _formButton(BuildContext context) {
+    return ElevatedButton(
+        onPressed: () {
+          Navigator.pushNamed(context, '/scouting_form');
+        },
+        child: const Text('Scouting Form'));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,6 +51,7 @@ class HomePage extends StatelessWidget {
                           width: 300, height: 300)),
                   _userUid(),
                   _signOutButton(),
+                  _formButton(context),
                 ])));
   }
 }
