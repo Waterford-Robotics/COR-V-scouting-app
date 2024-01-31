@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:scoutingapp/widget_tree.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:scoutingapp/firebase_options.dart';
+import 'package:scoutingapp/pages/scouting_form.dart';
+import 'package:scoutingapp/pages/home_page.dart';
 
 //import 'dart:async';
 //import 'dart:convert';
@@ -19,10 +21,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
-      home: const WidgetTree(),
-    );
+        theme: ThemeData.light(),
+        darkTheme: ThemeData.dark(),
+        home: const WidgetTree(),
+        routes: {
+          '/scouting_form': (context) => const ScoutingPage(),
+        });
   }
 }
 
