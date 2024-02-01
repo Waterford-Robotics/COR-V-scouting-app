@@ -1,7 +1,7 @@
 # COR-V Indev
 
 ## Important Note
-COR-V is currently an in-development project. This app currently does not work and it is not recommended to install either the executable or .apk until a stable version is avaliable. Version B.0.1 is expected to release around Week 1
+COR-V is currently an in-development project. This app currently does not work and it is not recommended to install either the executable or .apk until a stable version is available. Closed Beta B.0.1 is expected to be released around Week 1
 
 ## Getting Started
 
