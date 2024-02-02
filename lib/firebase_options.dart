@@ -51,6 +51,7 @@ class DefaultFirebaseOptions {
     authDomain: 'scoutingapp-backend.firebaseapp.com',
     storageBucket: 'scoutingapp-backend.appspot.com',
     measurementId: 'G-8MLXVBHJ2S',
+    databaseURL: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -59,6 +60,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '491982534039',
     projectId: 'scoutingapp-backend',
     storageBucket: 'scoutingapp-backend.appspot.com',
+    databaseURL: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -68,6 +70,7 @@ class DefaultFirebaseOptions {
     projectId: 'scoutingapp-backend',
     storageBucket: 'scoutingapp-backend.appspot.com',
     iosBundleId: 'com.example.scoutingapp',
+    databaseURL: '',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -77,5 +80,6 @@ class DefaultFirebaseOptions {
     projectId: 'scoutingapp-backend',
     storageBucket: 'scoutingapp-backend.appspot.com',
     iosBundleId: 'com.example.scoutingapp.RunnerTests',
+    databaseURL: '',
   );
 }
