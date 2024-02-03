@@ -92,7 +92,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.amber,
+          backgroundColor: Colors.indigo[900],
           title: _title(),
         ),
         body: Container(
@@ -111,3 +111,4 @@ class _LoginPageState extends State<LoginPage> {
                 ])));
   }
 }
+//is the error the colors

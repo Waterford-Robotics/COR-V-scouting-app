@@ -21,7 +21,8 @@ class _ScoutingPageState extends State<ScoutingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Retrieve Text Input'),
+        backgroundColor: Colors.indigo[900],
+        title: const Text('WIP Data Collector'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
