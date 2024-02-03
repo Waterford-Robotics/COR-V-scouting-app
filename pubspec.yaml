@@ -27,6 +27,8 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
+dependency_overrides:
+  firebase_core_web: ^2.10.0
 dependencies:
   flutter:
     sdk: flutter
@@ -36,26 +38,27 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: ^1.2.0
   firebase_core: ^2.24.2
-  firebase_auth: ^4.16.0
+  firebase_auth: ^4.17.0
   flutter_launcher_icons: ^0.13.1
-  
+  cloud_firestore: ^4.15.3
+
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/corvoid.png"
+  image_path: "assets/logoid.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
-    image_path: "assets/corvoid.png"
+    image_path: "assets/logoid.png"
     background_color: "#000000"
     theme_color: "#ADD8E6"
   windows:
     generate: true
-    image_path: "assets/corvoid.png"
+    image_path: "assets/logoid.png"
     icon_size: 48 # min:48, max:256, default: 48
   macos:
     generate: true
-    image_path: "assets/corvoid.png"
+    image_path: "assets/logoid.png"
 
 dev_dependencies:
   flutter_test:
